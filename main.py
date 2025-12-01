@@ -12,10 +12,10 @@ def iniciar():
         num2 = float(input("Ingresa el segundo número: "))
         
         if opcion == '1':
-            resultado = operaciones.sumar(num1, num2)
+            resultado = Operaciones.sumar(num1, num2)
             print(f"El resultado es: {resultado}")
         elif opcion == '2':
-            resultado = operaciones.restar(num1, num2)
+            resultado = Operaciones.restar(num1, num2)
             print(f"El resultado es: {resultado}")
         else:
             print("Opción no válida")
